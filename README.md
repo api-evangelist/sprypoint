@@ -1,0 +1,5 @@
+# SpryPoint
+
+SpryPoint is a company surfaced as a portfolio company of insight-partners, norwest-venture-partners and added to the API Evangelist network as a stub for enrichment. Sector: government. This profile is a lead awaiting the enrichment pipeline.
+
+Backed by: insight-partners, norwest-venture-partners — https://sprypoint.com
