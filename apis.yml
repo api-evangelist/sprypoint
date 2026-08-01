@@ -1,8 +1,18 @@
 aid: sprypoint
 name: SpryPoint
-description: 'SpryPoint is a company surfaced as a portfolio company of insight-partners, norwest-venture-partners
-  and added to the API Evangelist network as a stub for enrichment. Sector: government. This profile is
-  a lead awaiting the enrichment pipeline.'
+description: >-
+  SpryPoint is a cloud-based customer service and operations software provider
+  for utilities, founded in 2012 and headquartered in Charlottetown, Prince
+  Edward Island, Canada. Its platform modernizes the meter-to-cash lifecycle for
+  water & sewer, electric, and gas utilities across North America through an
+  integrated suite of modules: SpryCIS (customer information system), SpryEngage
+  (omnichannel customer portal), SpryWallet (payment processing), SpryMobile MFS
+  (field service orders), SpryMobile WOAM (work order and asset management),
+  SpryBackflow (backflow compliance), and SpryIDM (interval data management).
+  The company serves 100+ utility clients, employs 285+ people, is SOC 2 audited,
+  and is backed by Norwest Venture Partners and Insight Partners. SpryPoint
+  publishes no public developer portal or API documentation; integrations are
+  delivered through partnership engagements rather than a self-service API.
 url: https://raw.githubusercontent.com/api-evangelist/sprypoint/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,12 +21,30 @@ x-backed-by:
 - norwest-venture-partners
 x-tier: stub
 x-tier-reason: portfolio-lead
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://www.sprypoint.com/wp-content/uploads/2025/04/logo.svg
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
 - Government
+- Utilities
+- Customer Information System
+- Billing
+- Payments
+- Field Service
+- SaaS
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -24,5 +52,22 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/sprypoint-domain-security.yml
 - type: Website
   url: https://sprypoint.com
+- type: Blog
+  url: https://www.sprypoint.com/news/
+- type: PrivacyPolicy
+  url: https://sprypoint.com/privacy-policy
+- type: TrustCenter
+  url: https://trust.sprypoint.com
+- type: Compliance
+  url: https://sprypoint.com/trust-and-compliance/
+- type: LinkedIn
+  url: https://linkedin.com/company/sprypoint
+x-enrichment:
+  date: '2026-07-21'
+  status: enriched
+  artifacts_added: 3
+  pass: local-v1

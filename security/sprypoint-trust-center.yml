@@ -1,0 +1,19 @@
+generated: '2026-07-21'
+method: searched
+source: https://sprypoint.com/trust-and-compliance/
+url: https://trust.sprypoint.com
+trust_center: https://trust.sprypoint.com
+certifications:
+- SOC 2
+evidence:
+- source: https://sprypoint.com/trust-and-compliance/
+  keywords: [soc 2, trust and compliance, third-party audited]
+- source: https://trust.sprypoint.com
+  keywords: [trust center]
+notes: >-
+  SpryPoint publishes a Trust Center at trust.sprypoint.com and a
+  /trust-and-compliance/ page. SOC 2 is the only certification named
+  publicly; the page states the program is "audited by accredited
+  third-party agencies" but does not enumerate ISO 27001, PCI DSS,
+  HIPAA, FedRAMP, or GDPR. No bug bounty or public vulnerability
+  disclosure program or security contact was found.
